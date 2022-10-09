@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvIntitule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intitule"
+        android:labelFor="@+id/etIntitule"
+       android:textSize="20sp"
+       /><!-- android:textColor="#d3E8"
+        android:foreground="#FF0000"
+        android:background="#FFFF0000"/> -->
+
+    <EditText
+        android:id="@+id/etIntitule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/tvLieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lieu" />
+
+    <AutoCompleteTextView
+        android:id="@+id/etLieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:id="@+id/tvInformations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informations" />
+
+    <EditText
+        android:id="@+id/etInformations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapSentences" />
+
+    <CheckBox
+        android:id="@+id/cbUrgent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uregent" />
+
+    <Button
+        android:id="@+id/bEnvoyer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/envoyer"
+        android:onClick="envoyer"/>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fr.ldnr.dessix.myapplication">
+    <!-- Accès aux fichiers externes  // écriture sur une carte mémoire   -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Accès Serveurs externes ( HTTPS/TCP/IP ) via Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:targetApi="31"
+        android:requestLegacyExternalStorage="true">
+        <activity android:name=".AccueilActivity"  android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CarteActivity" android:label="@string/carte_titre" />
+            <!-- depuis 01/09>
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> -->
+        <activity android:name=".AquariumActivity" android:label="@string/aquarium_titre" />
+        <activity android:name=".PopcornActivity" android:label="@string/popcorn_titre" />
+        <activity android:name=".AlerteActivity" android:label="@string/alerte_djibril" />
+        <activity android:name=".AnnuaireActivity" android:label="@string/annuaire" />
+        <activity android:name=".EspeceActivity" android:label="@string/titre_espece" />
+        <activity android:name=".AnimalActivity" android:label="@string/titre_animal" />
+          <!--  android:theme="@android:style/Theme.DeviceDefault.NoActionBar" pour supprimer le titre -->
+        <!-- android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> -->
+    </application>
+
+</manifest>

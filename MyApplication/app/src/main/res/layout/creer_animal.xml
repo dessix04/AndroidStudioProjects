@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titreAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veuillez remplir le formulaire"
+        android:gravity="center"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="20px"/>
+
+    <TextView
+        android:id="@+id/nomAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nom_animal" />
+
+
+    <EditText
+        android:id="@+id/etNomAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/aMEspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_animal" />
+
+    <EditText
+        android:id="@+id/etAgeAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvArrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_arrivee" />
+
+    <DatePicker
+        android:id="@+id/etDateArrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner" />
+
+    <TextView
+        android:id="@+id/tvIdEnclos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_enclos" />
+
+    <Spinner
+        android:id="@+id/etIdEnclos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvIdEspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_espece" />
+
+    <Spinner
+        android:id="@+id/etIdEspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginBottom="30px"/>
+
+    <Button
+        android:id="@+id/btAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_enregistrer" />
+</LinearLayout>
+</ScrollView>

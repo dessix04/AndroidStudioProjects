@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cellule">
+        <item name="android:padding">5sp</item>
+    </style>
+    <style name="head" parent="@style/cellule">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#F000</item>
+    </style>
+
+    <style name="coloree">
+        <item name="android:background">#185</item>
+    </style>
+</resources>

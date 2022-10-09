@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="0, 1"
+    android:stretchColumns="0, 1"
+    android:collapseColumns=""
+    android:background="#FFFF">
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            style="@style/head" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poste"
+            style="@style/head"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            style="@style/head"/>
+
+    </TableRow>
+
+    <TableRow style="@style/coloree">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nina"
+            style="@style/cellule"
+            android:textColor="#F000"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Directrice"
+            style="@style/cellule"
+            android:textColor="#F000"
+            android:textAlignment="center"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0786753492"
+            android:autoLink="phone"
+            style="@style/cellule"
+            android:textColor="#F000"/>
+    </TableRow>
+    <TableRow >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emilie"
+            style="@style/cellule"
+            android:textColor="#F000"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Co-dirigeant"
+            style="@style/cellule"
+            android:textColor="#F000"
+            android:textAlignment="center"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0123456789"
+            android:autoLink="phone"
+            style="@style/cellule"
+            android:textColor="#F000"/>
+    </TableRow>
+    <TableRow style="@style/coloree">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kao"
+            style="@style/cellule"
+            android:textColor="#F000"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stagiaire"
+            style="@style/cellule"
+            android:textColor="#F000"
+            android:textAlignment="center"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0987654321"
+            android:autoLink="phone"
+            style="@style/cellule"
+            android:textColor="#F000"/>
+    </TableRow>
+</TableLayout>

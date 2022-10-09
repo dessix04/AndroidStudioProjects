@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titreEspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veuillez remplir le formulaire"
+        android:gravity="center"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="20px"/>
+
+    <TextView
+        android:id="@+id/nomEspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nom_especes" />
+
+    <EditText
+        android:id="@+id/etNomEspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/aMEspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Age_Max" />
+
+    <EditText
+        android:id="@+id/etAgeMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginBottom="30px"/>
+
+    <Button
+        android:id="@+id/btEspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/espece_enregistrer"
+        android:layout_marginBottom="30px"/>
+
+    <Button
+        android:id="@+id/btRechercher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rechercher_espece" />
+
+    <TextView
+        android:id="@+id/tvREspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>

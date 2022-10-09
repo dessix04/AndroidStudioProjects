@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">My Application</string>
+    <string name="carte_titre" >carte du Zoo</string>
+    <string name="aquarium_titre" >carte du Aquarium</string>
+    <string name="popcorn_titre" >carte du Popcorn</string>
+    <string name="carte_bienvenue" >Bienvenue</string>
+    <string name="popcorn_avertissement">Pas de popcorn aux poissons %2$s (%1$d secondes) !!</string>
+    <array name="tableau_poissons">
+        <item>Tilapia</item>
+        <item>Baleine</item>
+        <item>Requin</item>
+    </array>
+
+    <string name="accueil_soustitre">App officielle</string>
+    <string name="accueil_infos">Bienvenue dans <b>My Application</b> ,
+        conçue lors du module <sup>ANDROID</sup>; je suis disponible sur <small>0123456789 </small></string>
+    <string name="stub" translatable="false">******</string>
+    <string name="alerte_djibril">Alerte</string>
+    <string name="intitule">Intitulé</string>
+    <string name="lieu">Lieu</string>
+    <string name="informations">Informations</string>
+    <string name="uregent">Urgent</string>
+    <string name="envoyer">Envoyer</string>
+
+    <array name="lieux" translatable="false" >
+        <item>Enclos des ours</item>
+        <item>Enclos des lions</item>
+        <item>Allée centrale</item>
+        <item>Buvette</item>
+        <item>Boutique de souvenir</item>
+    </array>
+    <string name="confirmer_alerte">Veuillez confimer</string>
+    <string name="annuaire">Annuaire</string>
+    <string name="menu_envoyer">Envoyer</string>
+    <string name="menu_options">Options</string>
+
+
+    <string name="espece">Espéce</string>
+    <string name="titre_espece">Ajout d\'Espèce</string>
+    <string name="nom_especes">Nom</string>
+    <string name="Age_Max">Age Max</string>
+    <string name="espece_enregistrer">Enregistrer</string>
+    <string name="rechercher_espece">Rechercher une Espèce</string>
+
+
+    <string name="animal">Animal</string>
+    <string name="titre_animal">Ajout d\'Animal</string>
+    <string name="nom_animal">Nom</string>
+    <string name="age_animal">Age</string>
+    <string name="date_arrivee">Date d\'Arrivée</string>
+    <string name="id_enclos">Enclos</string>
+    <string name="id_espece">Espece</string>
+    <string name="animal_enregistrer">Enregistrer</string>
+</resources>

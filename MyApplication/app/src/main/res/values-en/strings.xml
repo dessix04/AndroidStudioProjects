@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carte_titre" >Zoo Map</string>
+    <string name="aquarium_titre" >Aquarium Map</string>
+    <string name="popcorn_titre" >Popcorn Map</string>
+    <string name="carte_bienvenue" >Welcome</string>
+    <string name="popcorn_avertissement">No popcorn for the fishes %2$s (%1$d seconds) !!</string>
+    <string name="accueil_soustitre">Official App</string>
+    <string name="accueil_infos">Bienvenue dans <b>My Application</b> ,
+        conçue lors du module <sup>ANDROID</sup>; je suis disponible sur <small>0123456789 </small></string>
+    <string name="stub" translatable="false">******</string>
+    <string name="alerte_djibril">Djibril\'s Alerte message </string>
+    <string name="intitule">Intitule</string>
+    <string name="lieu">Lieu</string>
+    <string name="informations">News</string>
+    <string name="uregent">Urgent</string>
+    <string name="envoyer">Send</string>
+    <array name="lieux" translatable="false" >
+        <item>Enclos des ours</item>
+        <item>Enclos des lions</item>
+        <item>Allée centrale</item>
+        <item>Buvette</item>
+        <item>Boutique de souvenir</item>
+    </array>
+    <string name="confirmer_alerte">Veuillez confimer</string>
+    <string name="annuaire">Annually</string>
+    <string name="menu_envoyer">SEND</string>
+    <string name="menu_options">Options</string>
+
+
+    <string name="espece">Espéce</string>
+    <string name="titre_espece">Ajout d\'Espèce</string>
+    <string name="nom_especes">Name</string>
+    <string name="Age_Max">Age Max</string>
+    <string name="espece_enregistrer">Enregistrer</string>
+    <string name="rechercher_espece">Cherche Espèce</string>
+
+
+    <string name="animal">Animal</string>
+    <string name="titre_animal">Ajout d\'Animal</string>
+    <string name="nom_animal">Nom</string>
+    <string name="age_animal">Age</string>
+    <string name="date_arrivee">Date d\'Arrivée</string>
+    <string name="id_enclos">Enclos</string>
+    <string name="id_espece">Espece</string>
+    <string name="animal_enregistrer">Enregistrer</string>
+</resources>
